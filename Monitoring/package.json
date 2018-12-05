@@ -1,0 +1,18 @@
+{
+	"scripts": {
+		"start": "set NODE_ENV=dev && node ./lib/server/server.js",
+		"test": "./node_modules/.bin/mocha ./tests/alerting_test.js --timeout 10000"
+	},
+	"dependencies": {
+		"async-wait-until": "^1.2.4",
+		"axios": "^0.18.0",
+		"blessed": "^0.1.81",
+		"blessed-contrib": "^4.8.8",
+		"body-parser": "^1.18.3",
+		"chai": "^4.2.0",
+		"describe": "^1.2.0",
+		"dotenv": "^6.1.0",
+		"express": "^4.16.4",
+		"mongodb": "^2.2.33"
+	}
+}
